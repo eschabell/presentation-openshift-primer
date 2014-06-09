@@ -209,7 +209,8 @@
                 <section data-background="https://raw.githubusercontent.com/eschabell/erics-images/master/easypeasy.png">
                 </section>
 
-                <section data-background="https://raw.githubusercontent.com/eschabell/erics-images/master/gears.png">
+                <section>
+                    <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/gears.png">
                 </section>
 
 				<section>
@@ -261,10 +262,14 @@
                 </section>
 
                 <section>
-                    <h3>Opta Planner Demo</h3>
+                    <h3>Business Optimizer Demo</h3>
                     <ul>
-                        <li><code>$ rhc app create -t jbosseap-6 --from-code git://github.com/eschabell/openshift-droolsplanner.git droolsplanner</code></li>
-                        <li><code>http://droolsplanner-$your_domain.rhcloud.com/droolsplanner</code></li>
+                        <li><code>$ rhc app create optimizer -t jbosseap-6</code></li>
+                        <li><code>$ cd optimizer</code></li>
+                        <li><code>$ git remote add upstream -m master git://github.com/eschabell/openshift-business-resource-optimizer.git</code></li>
+                        <li><code>$ git pull -s recursive -X theirs upstream master</code></li>
+                        <li><code>git push</code></li>
+                        <li><code>http://optimizer-$your_domain.rhcloud.com/optaplanner-webexamples-6.0.0-redhat-6</code></li>
                     </ul>
                     <div align="right">
                         <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/optaPlannerLogo.png">
@@ -322,7 +327,7 @@
                     </ul>
                 </section>
 
-ll            </div>
+            </div>
 
 		</div>
 
