@@ -11,4 +11,4 @@ That's it, you can now start your workshop at:
 
     http://primer-$your_domain.rhcloud.com
 
-![Cover Slide](https://raw.githubusercontent.com/eschabell/openshift-primer-presentation/master/cover.png)
+![Cover Slide](https://raw.githubusercontent.com/eschabell/presentation-openshift-primer/master/cover.png)
