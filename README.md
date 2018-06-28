@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/presentation-openshift-primer)
+
+
 Running on OpenShift
 --------------------
 
